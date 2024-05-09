@@ -6,3 +6,10 @@ local
 node_modules
 
 web-ext-artifacts/
+
+# VS Code
+.vscode/*
+.history/
+*.vsix
+.history
+.ionide
