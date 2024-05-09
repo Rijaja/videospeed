@@ -1,13 +1,13 @@
 {
-    "name": "Video Speed Controller (Magnus Fork)",
+    "name": "Video Speed Controller (Yet another fork)",
     "short_name": "videospeed",
-    "version": "7.2.1",
+    "version": "7.2.2",
     "manifest_version": 3,
     "description": "Speed up, slow down, advance & rewind HTML5 audio/video with shortcuts",
-    "homepage_url": "https://github.com/magnus-ISU/videospeed",
+    "homepage_url": "https://github.com/Rijaja/videospeed",
     "browser_specific_settings": {
         "gecko": {
-            "id": "videospeed@github.com.magnus-ISU.videospeed"
+            "id": "videospeed@github.com.rijaja.videospeed"
         }
     },
     "icons": {
@@ -38,8 +38,10 @@
             "js": ["inject.js"]
         }
     ],
-    "web_accessible_resources": [{
-        "resources": ["inject.css", "shadow.css"],
-        "matches": ["http://*/*", "https://*/*", "file:///*"]
-      }]
+    "web_accessible_resources": [
+        {
+            "resources": ["inject.css", "shadow.css"],
+            "matches": ["http://*/*", "https://*/*", "file:///*"]
+        }
+    ]
 }
